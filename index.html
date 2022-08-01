@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="calculator">
+        <div id="textfield"></div>
+        <div id="keypad">
+            <button onclick="clearAll()" class="blue-btn">C</button>
+            <button onclick="erase()" class="blue-btn">E</button>
+            <button onclick='display("%")' class="blue-btn">%</button>
+            <button onclick='display("/")' class="blue-btn">/</button>
+            
+            <button onclick='display("7")'>7</button>
+            <button onclick='display("8")'>8</button>
+            <button onclick='display("9")'>9</button>
+            <button onclick='display("*")' class="blue-btn">*</button>
+
+            <button onclick='display("4")'>4</button>
+            <button onclick='display("5")'>5</button>
+            <button onclick='display("6")'>6</button>
+            <button onclick='display("-")' class="blue-btn">-</button>
+
+            <button onclick='display("1")'>1</button>
+            <button onclick='display("2")'>2</button>
+            <button onclick='display("3")'>3</button>
+            <button onclick='display("+")' class="blue-btn">+</button>
+
+            <button onclick='display("0")' class="zero">0</button>
+            <button onclick='display(".")'>.</button>
+            <button onclick="evalute()" class="blue-btn">=</button>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

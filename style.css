@@ -1,0 +1,36 @@
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+#textfield{
+    height: 100px;
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 24px;
+}
+#keypad{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    grid-template-rows: repeat(4,3fr);
+}
+.zero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+button{
+    height: 40px;
+    border: none;
+    font-size: 24px;
+    background-color: whitesmoke;
+}
+button:hover{
+    opacity: 0.5;
+}
+.blue-btn{
+    background-color: aquamarine;
+}
